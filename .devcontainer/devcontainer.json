@@ -1,0 +1,9 @@
+{
+    "name": "SlimPHP Dev Container",
+    "image": "serversideup/php:latest",
+    "features": {
+      "postgresql": "latest"
+    },
+    "postCreateCommand": "composer install"
+  }
+  
